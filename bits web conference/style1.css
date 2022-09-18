@@ -1,0 +1,711 @@
+*{
+    
+    box-sizing: border-box;
+    
+
+}
+body{
+    width: 100% !important ;
+    overflow-x: hidden;
+    background:rgb(19,28,44);
+    font-family: barlow medium;
+
+
+    
+    
+}
+.logo{
+    
+    padding:5px;
+    padding-left: 50px;
+    
+}
+nav{
+    height: 100px;
+    background: rgb(19,28,44);
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: center;
+    background: rgb(19,28,44);
+}
+.nav-item{
+    font-size: 16px;
+    margin-left: 20px;
+    padding: 3px;
+    text-align: center;
+    
+}
+.wrapper{ 
+    overflow-x: hidden;
+}
+.container-1{
+    background: url(../images/homebg2.png);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    max-height: 10000px;
+    overflow-x: hidden;
+    
+
+    
+}
+.page-header{
+background: url(../images/homebg2.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding-top: 100px;
+    height:900px;
+}
+
+.page-header1{
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 60px;
+    padding-left:50px;
+    padding-right: 40px;
+    align-items: center;
+    justify-content: center;
+    font-family: Syne;
+}
+.container-1-2{
+    display: grid;
+    
+    
+    grid-template-columns:  2fr ;
+    grid-template-rows: 0.5fr 0.5fr 0.1fr;
+    grid-template-areas:
+      "left-1"
+      "right-1"
+      "line";
+      
+    grid-gap: 4rem;
+    /* height:1000px; */
+    
+    
+    
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: px;
+    padding-bottom: 100px;
+    overflow-x: hidden;
+    
+
+  }
+  .left-1{
+    grid-area: left-1;
+    color: white;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    height:50%;
+
+  }
+  .left-1-text{
+    font-size: 18px;
+    line-height: 1.5;
+    
+    
+
+  }
+
+
+  
+  .carousel-inner > .item > img {
+   
+    object-fit:fill;
+    overflow-x: hidden;
+
+  }
+  section{
+    /* padding:10px; */
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    overflow-x: hidden;
+
+  
+  
+    
+  }
+
+
+  .right-1{
+    grid-area: right-1;
+    color: white;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    height:50%;
+    
+
+  }
+  .right-1-text{
+    font-size: 18px;
+    line-height: 1.5;
+  }
+ 
+  span { display:flex; width:33.33%; float:left; height:10px;background: #000;}
+.line{
+    width:100%;
+    grid-area: line;
+}
+.color-1{
+    background:rgb(255, 217, 0);
+}
+.color-2{
+    background:rgb(0, 170, 255);
+}
+.color-3{
+    background:red;
+}
+
+
+.container-2{
+    
+    background:rgb(19,28,44);
+    max-height: 10000px;
+    
+    
+}
+.container-2-1{
+  display: grid;
+    
+    
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "left-2-1 center-2-1 right-2-1"
+      "left-2-2 center-2-2 right-2-2";
+      
+    grid-gap: 4rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+.page-header-2{
+  color:rgb(148,151,146);
+  text-align: center;
+  padding-top: 50px;  
+}
+.left-2-1{
+  grid-area: left-2-1;
+  
+  
+}
+.left-2-2{
+  grid-area: left-2-2;
+  height:50%;
+
+}
+.center-2-1{
+  grid-area: center-2-1;
+  
+
+
+}
+.center-2-2{
+  grid-area: center-2-2;
+  height:50%;
+
+}
+.right-2-1{
+  grid-area: right-2-1;
+  
+
+}
+.right-2-2{
+  grid-area: right-2-2;
+  background: url(../images/gif1.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: moveToLeft 5s ease-in-out;
+  animation-delay: 10ms;
+  height:50%
+  
+
+}
+@keyframes moveToRight {
+  0% {
+      transform: translateX(0px);
+  }
+  100% {
+      transform: translateX(500px);
+  }
+}
+
+
+
+@keyframes moveToLeft {
+  0% {
+      transform: translateX(500px);
+  }
+  100% {
+      transform: translateX(0px);
+  }
+}
+.page-header-2-1{
+  /* text-align: center; */
+  color:#ffffff;
+  padding-left:50px;
+  padding-right:20px;
+  
+  
+}
+.page-text{
+  color:rgb(148,151,146);
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+  padding-left:50px;
+  padding-right:20px;
+  padding-top: 30px;
+}
+  
+  .conference {
+      
+    text-align: center;
+    background: rgb(33,29,112);
+    background:url(../images/bag.png);
+    padding:20px;
+    color:white;
+    font-size: 30px !important;
+  }
+  .conference-matter{
+    text-align: center;
+    font-size: 30px !important;
+  }
+
+  .imp{
+    background:rgb(19,28,44);
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 0.2fr 1fr;
+    
+    grid-template-areas:
+      "imp-header"
+      "imp-matter"
+      ;
+      grid-gap:4em;
+
+      
+    
+
+  }
+  .imp-header{
+    color: white;
+    text-align: center;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 10px !important;
+    grid-area: imp-header;
+  }
+  .imp-matter{
+    text-align: left;
+    color:rgb(148,151,146);
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+  padding-left:40px;
+  padding-right:40px;
+  
+  font-size: 25px;
+  grid-area: imp-matter;
+  border-radius:8px;
+  margin-top: -50px;
+
+
+  }
+
+
+  table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    border-radius: 8px;
+  }
+  
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background:url(../images/bag.png);
+    border: 1px solid #ddd;
+    padding: .35em;
+    border-radius: 8px;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: left;
+    color: white;
+    padding-left: 15%;
+    
+  }
+  
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+   /* border-radius: 8px; */
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+      padding-left: 5%;
+    }
+    
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+    .contact-matter{
+      
+      grid-template-columns: 1fr;
+      grid-template-rows: 4fr 4fr;
+      grid-template-areas:
+      "l1"
+      "r1";
+      background: rgb(202,215,255);
+    
+    grid-gap: 4rem;
+    }
+    
+  }
+
+
+
+
+
+
+  .carousel-wrapper{
+    padding:40px;
+    background:rgb(19,28,44);
+  }
+  .blah {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(202,215,255);
+    /* padding-left:300px;
+    padding-right: 300px; */
+   
+    border-radius: 20px;
+  }
+  .cards-wrapper{
+    display: flex;
+    justify-content: center;
+    
+    padding:40px;
+    border-radius: 20px;
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+
+    height: 300px !important;
+
+  }
+  .card-img-top{
+    border-radius:20px;
+    
+    
+
+
+  }
+
+
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 20px;
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+  .carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background:red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 50%; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  background-size: cover;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+@media (min-width: 2000px) {
+  .con-info{
+    padding-left: 25%;
+  }
+}
+  
+
+
+
+@media (min-width: 768px) {
+  .card img {
+    height: 11em;
+  }
+
+}
+  /* @media (max-width:400px) and (min-width:1526px) {
+    .container-1{
+        height:2500px;
+    }
+  }
+  @media (max-width:1196px) and (min-width:1518px) {
+    .container-1{
+        height:4000px;
+    }
+  } */
+    
+    
+  /* @media only screen and (max-width: 400px) {
+    .container-1{
+        height:3000px;
+    }
+  } */
+  @media only screen and (max-width: 1193px) {
+    /* .container-1{
+        height:3000px;
+    } */
+    .page-header{
+      height:400px;
+    }
+    .page-header1{
+        color: white;
+        text-align: left;
+        font-weight: bold;
+        font-size: 22px;
+        padding-left:40px;
+        padding-right: 40px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .container-1-2{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 0.1fr;
+      grid-template-areas:
+      "left-1" 
+      
+      "right-1"
+      "line";
+        padding-right: 20px;
+        padding-left: 20px;
+       
+    }
+     .left-1{
+    grid-area: left-1;
+    color: white;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    
+
+  }
+  .container-2-1{
+    display: grid;
+      
+      
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-areas:
+        "left-2-1"
+        " center-2-1"
+         " right-2-1"
+        "left-2-2 "
+        "center-2-2"
+         "right-2-2";
+        
+      grid-gap: 4rem;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 50px;
+  }
+  .card img {
+    height: 11em;
+  }
+  .contact-matter{
+    
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 4fr 4fr !important;
+    grid-template-areas:
+    "l1"
+    "r1" !important;
+    background: rgb(202,215,255);
+  
+  grid-gap: 4rem;
+  }
+  .con-info{
+    text-align: left;
+    margin-right: 40px;
+    align-items: center;
+    /* padding-left: 30px; */
+  }
+  .local-heading{
+    text-align: center;
+  } 
+
+ 
+  }
+.footer {
+    overflow-x: hidden;
+}
+
+
+/* contcat us */
+
+.container-3{
+ background: url(../images/6.png);
+ background-repeat: no-repeat;
+ background-size: 100%;
+ height: 400px;
+ 
+}
+.contact-header{
+ font-family: Syne;
+ text-align: center;
+ color:white;
+ font-weight:bold;
+}
+.contact-matter{
+  background: rgb(202,215,255);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  grid-template-areas:
+        "l1 r1";
+        
+        
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius:15px;
+  margin-bottom:20px;
+
+}
+.l1{
+grid-area: l1;
+text-align: center;
+align-items: center;
+ }
+.r1{
+grid-area: r1;
+text-align: center;
+align-items: center;
+
+}
+.con-info{
+  text-align: left;
+  margin-left: 100px;
+  align-items: center;
+  
+}
+
+
+/* #conferencecommittee */
+.concom{
+  background: url(../images/bag.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+  
+  width: 100%;
+  
+
+}
+.concom-header{
+  text-align: center;
+  color: white;
+}
+.l3,.r3{
+color: white;
+}
+.concom-matter{
+background: rgb(19,28,44);
+grid-gap:4em;
+padding-top: 50px;
+}
+/* 
+.local-heading{
+  text-align: center;
+} */
+
+/* attractions */
+
+.attraction-head{
+  /* background: url(../images/dubai.png);
+  background-size: 100%;
+  background-repeat: no-repeat; */
+
+}
+.responsive{
+  width: 100%;
+  height:auto;
+}
